@@ -40,7 +40,7 @@ COMMING SOON PAGE
             minutes.html('<h1>'+m+'</h1><p>minuutti'+(m != 1?'a':''),'</p>');
 
             s = Math.floor(s-m*60);
-            seconds.html('<h1>'+s+'</h1><p>sekuntti'+(s != 1?'a':''),'</p>');
+            seconds.html('<h1>'+s+'</h1><p>sekunti'+(s != 1?'a':''),'</p>');
             setTimeout(setDate, 1000);
         }
     }
